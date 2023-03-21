@@ -6,7 +6,7 @@ using System.Text.Json.Serialization;
 namespace CatalogAPI.Models
 {
     //User2 modifying the code
-    //Add sub ctalog name
+    //Add sub catalog name
 
     [Table("Catalog")]
     public class Catalog
@@ -19,6 +19,7 @@ namespace CatalogAPI.Models
         [Column("Catalog_Name")]
         [Required]
         [StringLength(50)]
+        //User8 Modifying the code
         public string? CatalogName { get; set; }
 
         //[JsonIgnore]       
